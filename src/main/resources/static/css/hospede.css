@@ -1,0 +1,112 @@
+/* Configurações gerais da página */
+body {
+    background-color: #F2E8D5; /* Cor de fundo bege claro */
+    color: #333; /* Cor do texto padrão em cinza escuro */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+.container {
+    background-color: #fff; /* Fundo branco para a área principal de conteúdo */
+    
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor da caixa */
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #fff; /* Cinza escuro para o fundo do cabeçalho */
+    color: #794C23; /* Cor do texto em bege claro */
+    padding: 15px 0;
+    border-bottom: 3px solid #d5c9b1; /* Linha de borda inferior em bege */
+}
+
+header .nav-link {
+    color: #794C23; /* Cor dos links em bege claro */
+}
+
+.nav-link active {
+    color: #794C23; /* Destaque para o link ativo em bege */
+    background-color: transparent; /* Remove fundo padrão do link ativo */
+}
+
+.nav-link:hover {
+    color: #d5c9b1; /* Cor de destaque dos links ao passar o mouse */
+}
+
+/* Estilização do conteúdo */
+.content {
+    margin-top: 20px;
+}
+
+.content h2 {
+    color:#794C23;/* Cor do título em cinza escuro */
+}
+
+.content button.btn-primary {
+    background-color: #d5c9b1; /* Cor de fundo dos botões primários em bege */
+    border: none;
+}
+
+.content button.btn-primary:hover {
+    background-color: #bfae9f; /* Cor de fundo dos botões primários ao passar o mouse */
+}
+
+.content button.btn-secondary {
+    background-color: #ccc; /* Cor de fundo dos botões secundários em cinza claro */
+    border: none;
+}
+
+.content button.btn-secondary:hover {
+    background-color: #aaa; /* Cor de fundo dos botões secundários ao passar o mouse */
+}
+
+/* Estilização da tabela */
+.table thead {
+    background-color: #333; /* Fundo da tabela em cinza escuro */
+    color: #f5f5f5; /* Cor do texto em bege claro */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #F2E8D5; /* Linha alternada da tabela em bege claro */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #F2E8D5; /* Linha alternada da tabela em branco */
+}
+
+.table th, .table td {
+    color: #333; /* Cor do texto das células em cinza escuro */
+}
+
+/* Estilização do modal */
+#guestFormModal {
+    background-color: #fff; /* Fundo branco para o modal */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do modal */
+}
+
+#guestFormModal h3 {
+    color: #333; /* Cor do título do modal em cinza escuro */
+}
+
+#guestFormModal .form-label {
+    color: #333; /* Cor dos rótulos do formulário em cinza escuro */
+}
+
+#guestFormModal .form-control {
+    border-color: #ddd; /* Cor da borda dos campos do formulário */
+}
+
+/* Rodapé */
+footer {
+    background-color: #333; /* Cinza escuro para o fundo do rodapé */
+    color: #f5f5f5; /* Cor do texto em bege claro */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.fs-4{
+	color: #794C23;
+}
